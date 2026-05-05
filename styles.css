@@ -92,3 +92,42 @@ button {
     color: #F9FAF8;
     font-weight: 900;
 }
+
+.random-information {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.random-information-top {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.random-information-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.random-information-bottom .box {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3883F6;
+    border-radius: 15px;
+}
+
+.box-container {
+    width: 165px;
+}
+
+.box-subtext {
+    font-size: 18px;
+    color: #1F2937;
+    text-align: center;
+    margin: 10px 0px;
+    margin-left: 5px;
+}
