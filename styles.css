@@ -131,3 +131,28 @@ button {
     margin: 10px 0px;
     margin-left: 5px;
 }
+
+.quote {
+    background-color: #EBE7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 425px;
+}
+
+.quote-quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    width: 825px;
+}
+
+.quote-signature {
+    align-self: flex-end;
+    margin-right: 345px;
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+}
