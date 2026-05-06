@@ -156,3 +156,39 @@ button {
     color: #1F2937;
     font-weight: 900;
 }
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.sign-up-banner {
+    width: 1025px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.action-top,
+.action-bottom {
+    color: #F9FAF8;
+}
+
+.action-top {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-bottom {
+    font-size: 18px;
+}
+
+.banner-button {
+    border: 2px solid #F9FAF8;
+}
